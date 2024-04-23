@@ -1,0 +1,2 @@
+AOS.init();const e=new Date("Apr 30, 2024 19:00:00").getTime(),t=setInterval(function(){let o=e-new Date().getTime();document.getElementById("contador").innerHTML=`${Math.floor(o/864e5)}d ${Math.floor(o%864e5/36e5)}h ${Math.floor(o%36e5/6e4)}m ${Math.floor(o%6e4/1e3)}s`,o<0&&(clearInterval(t),document.getElementById("contador").innerHTML="Evento expirado - Você chegou tarde demais!")},1e3);
+//# sourceMappingURL=index.aadb8cff.js.map
